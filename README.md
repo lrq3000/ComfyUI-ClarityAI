@@ -9,9 +9,19 @@ This is a ComfyUI node for Clarity AI, the creative image upscaler. It upscales 
 We now have a fully ComfyUI workflow of Clarity upscaler, it seems to uses the same tech and is getting close to the clarity results. Needs some final tweaking to reach the same quality.
 Feel free to experiment and let me know if you discover great parameters.
 
-### 1. Install
+### 1. Install offline
 
-Just drag and drop the `free-workflow.json` workflow json file into your ComfyUI
+Just drag and drop the `free-workflow.json` workflow json file into your ComfyUI.
+
+You will need the ComfyUI-Manager to install the missing nodes.
+
+Also you will need to install the following checkpoints:
+* the tiling diffusion ControlNet: https://huggingface.co/copybaiter/ControlNet/blob/main/control_v11f1e_sd15_tile.safetensors
+* a SD1.5 model (or the faster SD1.5-Hyper models)
+* the two following LoRAs:
+    * [SDXLrender v2](https://civitai.com/models/171159/sdxlrender)
+    * [more details](https://civitai.com/models/82098/add-more-details-detail-enhancer-tweaker-lora)
+* optionally, the upscaler: https://huggingface.co/datasets/jibopabo/upscalers/blob/main/4xNomosUniDAT_otf.pth
 
 ## Simple but paid usage:
 
