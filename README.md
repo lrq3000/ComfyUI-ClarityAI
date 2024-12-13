@@ -17,7 +17,7 @@ You will need the ComfyUI-Manager to install the missing nodes.
 
 Also you will need to install the following checkpoints:
 * the tiling diffusion ControlNet: https://huggingface.co/copybaiter/ControlNet/blob/main/control_v11f1e_sd15_tile.safetensors
-* a SD1.5 model (or the faster SD1.5-Hyper models)
+* a SD1.5 model (or the faster SD1.5-Hyper models). SD1.5 based models are required by the ControlNet model.
 * the two following LoRAs:
     * [SDXLrender v2](https://civitai.com/models/171159/sdxlrender)
     * [more details](https://civitai.com/models/82098/add-more-details-detail-enhancer-tweaker-lora)
